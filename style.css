@@ -178,6 +178,7 @@ main{
   gap: 20px;
   padding: 75px 150px;
   margin-bottom: 93px;
+  border-radius: 14px;
 }
 .focus h1{
   font-size: 50px;
@@ -185,4 +186,33 @@ main{
 }
 .focus img{
   border-radius: 48px;
+}
+
+/* contact */
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-bottom: 14px;
+}
+.contact h1{
+  font-size: 97px;
+  font-weight: bold;
+  max-width: 528px;
+}
+.contact form{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.contact form label{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.contact form input, textarea{
+  padding: 19px 32px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
 }
