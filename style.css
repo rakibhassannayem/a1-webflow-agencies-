@@ -55,3 +55,35 @@ nav h1{
   font-weight: bold;
   text-align: center;
 }
+
+/* main */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* action */
+.action{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left h1{
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.left p{
+  font-size: 24px;
+  text-align: center;
+}
+.action img{
+  border-radius: 48px;
+}
